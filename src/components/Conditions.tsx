@@ -37,7 +37,7 @@ export default function Conditions() {
       id="krankheitsbilder"
       className="bg-white"
     >
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28">
+      <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28">
 
         {/* Section heading */}
         <div className="max-w-2xl">

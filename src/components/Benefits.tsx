@@ -16,7 +16,7 @@ const benefits = [
 export default function Benefits(){
     return (
         <section className="bg-white">
-            <div className="mx-auto grid max-w-7xl gap-6 px-6 py-16 md:grid-cols-3">
+            <div className="mx-auto grid max-w-6xl gap-6 px-6 py-16 md:grid-cols-3">
                 {benefits.map((benefit) => (
                     <article key={benefit.title} className="rounded-3xl border border-gray-100 bg-(--color-background) p-8">
                         <h2 className="text-xl font-semibold text-(--color-navy)">{benefit.title}</h2>

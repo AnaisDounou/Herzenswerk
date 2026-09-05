@@ -34,7 +34,7 @@ const processSteps: ProcessStep[] = [
 export default function Process() {
   return (
     <section id="ablauf" className="bg-(--color-background)">
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28">
+      <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28">
 
         {/* Heading */}
         <div className="max-w-2xl">

@@ -27,7 +27,7 @@ body {
 @import "tailwindcss";
 
 :root {
-  --color-navy: #183B56;
+  --color-navy: #012c5a;
   --color-green: #6B9B63;
   --color-brown: #A97850;
   --color-background: #F8FAF9;

@@ -11,7 +11,7 @@ export default function ForRelatives() {
       id="angehoerige"
       className="bg-white"
     >
-      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-2 lg:py-28">
+      <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 lg:grid-cols-2 lg:py-28">
 
         {/* Text */}
         <div>

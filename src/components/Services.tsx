@@ -43,7 +43,7 @@ const services: Service[] = [
 export default function Services() {
   return (
     <section id="leistungen" className="bg-(--color-background)">
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:py-28">
+      <div className="mx-auto max-w-6xl px-6 py-20 lg:py-28">
 
         <div className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-wider text-(--color-green)">
