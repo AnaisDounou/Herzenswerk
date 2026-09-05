@@ -45,9 +45,12 @@ export default function Hero() {
 
         {/* Image */}
         <div className="relative">
-          <div className="aspect-4/3 overflow-hidden rounded-3xl bg-gray-200">
-            <div className="flex h-full items-center justify-center text-gray-500">
-              Hero Image
+          <div className="aspect-4/3 overflow-hidden rounded-3xl">
+            <div className="flex items-center justify-center">
+              <img src="./young-doctor-using-stethoscope-listen-old-woman-heart-beat-nursing-home.jpg" 
+                   alt="male-doctor-putting-his-stethoscope-listening-old-woman-heartbeat-nursing-home"
+                   className="rounded-3xl"
+                   />
             </div>
           </div>
         </div>
