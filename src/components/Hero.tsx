@@ -6,7 +6,7 @@ export default function Hero() {
         {/* Text content */}
         <div>
           <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-(--color-green)">
-            Ambulanter Intensivpflegedienst
+            Ambulanter – Intensivpflegedienst
           </p>
 
           <h1 className="max-w-3xl text-4xl font-bold leading-tight tracking-tight text-(--color-navy) sm:text-5xl lg:text-6xl">

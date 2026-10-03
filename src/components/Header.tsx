@@ -30,7 +30,7 @@ export default function Header() {
           onClick={closeMenu}
           className="text-2xl font-bold text-(--color-navy)"
         >
-          Herzenswerk
+          <img className="w-48" src="./herzenswerk-horizontal.png" alt="herzenswerk horizontal logo" />
         </Link>
 
         {/* Desktop Navigation */}
