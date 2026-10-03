@@ -132,16 +132,16 @@ const serviceCategories: ServiceCategory[] = [
         description:
           "Wundversorgung und Verbandswechsel.",
       },
-      // {
-      //   title: "Enterale Ernährung",
-      //   description:
-      //     " Versorgung unnd sondern n",
-      // },
-      // {
-      //   title: "Parenterale Ernährung",
-      //   description:
-      //     "Anhängen und abhängen plus ",
-      // },
+      {
+        title: "Enterale Ernährung",
+        description:
+          "An- und Abhängen der Sondennahrung. Versorgung PEG und PEJ",
+      },
+      {
+        title: "Parenterale Ernährung",
+        description:
+          "Anhängen, Abhängen und Portnagel wechseln ",
+      },
     ],
   },
 

@@ -5,11 +5,11 @@ export default function Hero() {
 
         {/* Text content */}
         <div className=" flex justify-center items-center flex-col">
-          <p className="text-center mb-4 text-4xl font-semibold uppercase tracking-wider text-(--color-green)">
+          <p className="text-center mb-4 text-2xl lg:text-4xl font-semibold uppercase tracking-wider text-(--color-green)">
             Ambulanter – Intensivpflegedienst
           </p>
 
-          <h1 className="text-center max-w-3xl text-2xl font-bold leading-tight tracking-tight text-(--color-navy) sm:text-5xl lg:text-2xl">
+          <h1 className="text-center max-w-3xl text-lg font-bold leading-tight tracking-tight text-(--color-navy) sm:text-5xl lg:text-2xl">
             Mit Kompetenz und Menschlichkeit
           </h1>
 
