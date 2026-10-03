@@ -17,33 +17,7 @@ export default function Footer() {
 
           {/* Brand */}
           <div>
-            <a
-              href="/"
-              className="text-3xl font-bold tracking-tight"
-            >
-              Herzenswerk
-            </a>
-
-            <p className="mt-3 text-sm font-semibold uppercase tracking-[0.2em] text-(--color-green)">
-              Ambulanter
-              <br />
-              Intensivpflegedienst
-            </p>
-
-            <div className="mt-8 h-1 w-16 bg-(--color-green)" />
-
-            <p className="mt-6 text-lg font-medium">
-              Kompetent. Zuverlässig. Liebevoll.
-            </p>
-
-            <p className="mt-4 max-w-sm leading-7 text-white/70">
-              Professionelle und individuelle Intensivpflege
-              für Menschen mit besonderem Unterstützungsbedarf.
-            </p>
-
-            <p className="mt-8 text-2xl italic text-white">
-              Pflege mit Herz.
-            </p>
+            <img src="./herzenswerk-vertical.svg" alt="herzenswerk vertical logo - brand logo" className="rounded-3xl" />
           </div>
 
           {/* Navigation */}
@@ -118,7 +92,7 @@ export default function Footer() {
 
               {/* Phone */}
               <a
-                href="tel:+491631710326"
+                href="tel: 051413028070"
                 className="group flex items-center gap-4"
               >
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/10 transition group-hover:bg-(--color-green)">
@@ -129,14 +103,14 @@ export default function Footer() {
                   />
                 </span>
 
-                <span className="text-white/80 group-hover:text-white">
-                  +49 163 1710 326
+                <span className="text-white/80 group-hover:text-white hover:underline">
+                   05141  3028070
                 </span>
               </a>
 
               {/* Phone */}
               <a
-                href="tel:+4917670939385"
+                href="tel:01631710326"
                 className="group flex items-center gap-4"
               >
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/10 transition group-hover:bg-(--color-green)">
@@ -147,8 +121,8 @@ export default function Footer() {
                   />
                 </span>
 
-                <span className="text-white/80 group-hover:text-white">
-                  +49 176 7093 9385
+                <span className="text-white/80 group-hover:text-white hover:underline">
+                   0163 1710326
                 </span>
               </a>
 
@@ -162,14 +136,14 @@ export default function Footer() {
                   />
                 </span>
 
-                <span className="text-white/80">
-                  Fax: 000000000
+                <span className="text-white/80 hover:underline">
+                  Fax: 05141 3028071
                 </span>
               </div>
 
               {/* Email */}
               <a
-                href="mailto:info@herzenswerk.life"
+                href="mailto:info@herzenswerk-pflege.de"
                 className="group flex items-center gap-4"
               >
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/10 transition group-hover:bg-(--color-green)">
@@ -180,14 +154,14 @@ export default function Footer() {
                   />
                 </span>
 
-                <span className="text-white/80 group-hover:text-white">
-                  info@herzenswerk.life
+                <span className="text-white/80 group-hover:text-white hover:underline">
+                  info@herzenswerk-pflege.de
                 </span>
               </a>
 
               {/* Website */}
               <a
-                href="https://herzenswerk.life"
+                href="https://herzenswerk-pflege.de"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4"
@@ -200,8 +174,8 @@ export default function Footer() {
                   />
                 </span>
 
-                <span className="text-white/80 group-hover:text-white">
-                  www.herzenswerk.life
+                <span className="text-white/80 group-hover:text-white hover:underline">
+                  www.herzenswerk-pflege.de
                 </span>
               </a>
 

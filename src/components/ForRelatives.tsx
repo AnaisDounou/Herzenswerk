@@ -63,7 +63,7 @@ export default function ForRelatives() {
         <div className="relative">
           <div className="aspect-4/3 overflow-hidden rounded-3xl bg-gray-200">
             <div className="flex h-full items-center justify-center text-gray-500">
-              Angehörige Image
+              <img src="./img/medical-assistant-checking-treatment-senior-man.jpg" alt="" />
             </div>
           </div>
         </div>
