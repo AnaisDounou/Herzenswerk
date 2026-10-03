@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Benefits from "@/components/Benefits";
 import Conditions from "@/components/Conditions";
 import ContactCTA from "@/components/ContactCTA";
@@ -20,8 +21,8 @@ export default function  Home(){
         <Conditions/>
         <Process/>
         <ForRelatives/>
+        <ContactCTA/>
         <Testimonials/>
-        {/* <ContactCTA/> */}
         <Footer/>
       </main>
     </>

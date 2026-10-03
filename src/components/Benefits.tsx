@@ -24,8 +24,25 @@ const benefits = [
 
 export default function Benefits(){
     return (
-        <section className="bg-white">
-            <div className="mx-auto grid max-w-6xl gap-6 px-6 py-16 md:grid-cols-3">
+        <section id="ueber-uns" className="bg-white">
+
+            <div className="mx-auto max-w-6xl px-6 pt-20 lg:pt-28 text-center">
+                <p className="text-xl font-semibold uppercase tracking-wider text-(--color-green)">
+                Über uns
+                </p>
+
+                <h2 className="mt-3 text-3xl font-bold tracking-tight text-(--color-navy) sm:text-4xl">
+                Pflege, die den Menschen in den Mittelpunkt stellt.
+                </h2>
+
+                <p className="mt-4 leading-7 text-gray-600">
+                    Herzenswerk steht für eine individuelle und professionelle
+                    Versorgung von Menschen mit intensivem pflegerischem
+                    Unterstützungsbedarf.
+                </p>
+            </div>
+          
+            <div className="mx-auto grid max-w-6xl gap-6 px-6 pt-6 pb-16 md:grid-cols-3">
                 {benefits.map((benefit) => (
                     <article key={benefit.title} className="rounded-3xl border border-gray-100 bg-(--color-background) p-8">
                         {/* { if benefit.position == 1 : } */}

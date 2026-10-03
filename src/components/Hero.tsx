@@ -47,9 +47,11 @@ export default function Hero() {
         <div className="relative">
           <div className="aspect-4/3 overflow-hidden rounded-3xl">
             <div className="flex items-center justify-center">
-              <img src="./young-doctor-using-stethoscope-listen-old-woman-heart-beat-nursing-home.jpg" 
+              <img 
+                   src="./img/young-doctor-using-stethoscope-listen-old-woman-heart-beat-nursing-home.jpg" 
                    alt="male-doctor-putting-his-stethoscope-listening-old-woman-heartbeat-nursing-home"
                    className="rounded-3xl"
+
                    />
             </div>
           </div>

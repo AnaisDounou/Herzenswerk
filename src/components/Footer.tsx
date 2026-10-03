@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   Clock3,
   Globe,
@@ -29,54 +30,47 @@ export default function Footer() {
             <div className="mt-3 h-1 w-12 bg-(--color-green)" />
 
             <nav className="mt-6 flex flex-col gap-4">
-              <a
-                href="#ueber-uns"
+              <Link
+                href="/#ueber-uns"
                 className="text-white/75 transition hover:text-white"
               >
                 Über uns
-              </a>
+              </Link>
 
-              <a
-                href="#leistungen"
+              <Link
+                href="/leistungen"
                 className="text-white/75 transition hover:text-white"
               >
                 Leistungen
-              </a>
+              </Link>
 
-              <a
-                href="#krankheitsbilder"
+              <Link
+                href="/#krankheitsbilder"
                 className="text-white/75 transition hover:text-white"
               >
                 Krankheitsbilder
-              </a>
+              </Link>
 
-              <a
-                href="#angehoerige"
+              <Link
+                href="/#angehoerige"
                 className="text-white/75 transition hover:text-white"
               >
                 Angehörige
-              </a>
+              </Link>
 
-              <a
-                href="#ablauf"
+              <Link
+                href="/#ablauf"
                 className="text-white/75 transition hover:text-white"
               >
                 Ablauf
-              </a>
+              </Link>
 
-              <a
-                href="#stellenangebote"
-                className="text-white/75 transition hover:text-white"
-              >
-                Stellenangebote
-              </a>
-
-              <a
-                href="#kontakt"
+              <Link
+                href="/#kontakt"
                 className="text-white/75 transition hover:text-white"
               >
                 Kontakt
-              </a>
+              </Link>
             </nav>
           </div>
 

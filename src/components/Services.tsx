@@ -85,13 +85,13 @@ export default function Services() {
                 {service.description}
               </p>
 
-              <a
-                href="#kontakt"
+              {/* <a
+                href="/leistungen"
                 className="mt-6 inline-flex font-semibold text-(--color-navy) transition group-hover:gap-2"
               >
                 Mehr erfahren
                 <span aria-hidden="true">&nbsp;→</span>
-              </a>
+              </a> */}
             </article>
           ))}
 
@@ -99,7 +99,7 @@ export default function Services() {
 
         <div className="mt-10">
           <a
-            href="#kontakt"
+            href="/leistungen"
             className="inline-flex rounded-full bg-(--color-navy) px-7 py-3.5 font-semibold text-white transition hover:opacity-90"
           >
             Alle Leistungen ansehen
