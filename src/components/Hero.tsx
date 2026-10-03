@@ -4,17 +4,17 @@ export default function Hero() {
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 lg:grid-cols-2 lg:py-28">
 
         {/* Text content */}
-        <div>
-          <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-(--color-green)">
+        <div className=" flex justify-center items-center flex-col">
+          <p className="text-center mb-4 text-4xl font-semibold uppercase tracking-wider text-(--color-green)">
             Ambulanter – Intensivpflegedienst
           </p>
 
-          <h1 className="max-w-3xl text-4xl font-bold leading-tight tracking-tight text-(--color-navy) sm:text-5xl lg:text-6xl">
-            Intensivpflege mit Kompetenz und Menschlichkeit
+          <h1 className="text-center max-w-3xl text-2xl font-bold leading-tight tracking-tight text-(--color-navy) sm:text-5xl lg:text-2xl">
+            Mit Kompetenz und Menschlichkeit
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-600">
-            Professionelle und individuelle Pflege für Menschen mit intensivem
+            Professionelle und individuelle Pflege für Menschen mit ambulantem und intensivem
             medizinischem Unterstützungsbedarf.
           </p>
 

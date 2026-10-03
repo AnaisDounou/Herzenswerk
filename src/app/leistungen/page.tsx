@@ -132,6 +132,16 @@ const serviceCategories: ServiceCategory[] = [
         description:
           "Wundversorgung und Verbandswechsel.",
       },
+      // {
+      //   title: "Enterale Ernährung",
+      //   description:
+      //     " Versorgung unnd sondern n",
+      // },
+      // {
+      //   title: "Parenterale Ernährung",
+      //   description:
+      //     "Anhängen und abhängen plus ",
+      // },
     ],
   },
 
